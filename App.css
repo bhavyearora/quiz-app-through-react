@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+}
+h1{    
+  text-align: center;
+}
+.quiz-container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  margin: 10px;
+}
+
+#submit-quiz {
+  background-color: #1772f9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-quiz:hover {
+  background-color: #f32207;
+}
+
+.result-container {
+  margin-top: 20px;
+}
